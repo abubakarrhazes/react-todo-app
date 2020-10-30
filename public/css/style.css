@@ -1,0 +1,177 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	font-family: sans-serif;
+}
+#nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar{
+	background-image: linear-gradient(to right,#000000,#000000);
+	padding: 0;
+}
+.navbar-brand {
+	color:#fff;
+	font-weight: 600;
+}
+.navbar-brand img{
+	height: 50px;
+	width: 40px;
+	padding-left:px;
+}
+.navbar-nav li{
+	padding: 0 10px;
+}
+.navbar-nav li a{
+	color: #fff !important;
+	font-weight:600;
+}
+.fa-bars{
+	color: #fff;
+	font-size: 30px !important;
+}
+#banner{
+	background-image: linear-gradient(to right,#000000,#000000);
+	color: #fff;
+	padding-top: 5%
+}
+#services{
+	padding: 80px 0;
+}
+.services img{
+	width: 100px ;
+	margin-top: 20px;
+}
+.services{
+	padding: 20px;
+}
+.services h4{
+	padding: 5px;
+	margin-top: 25px;
+	transform: uppercase;
+}
+.title::before{
+	content: "";
+	background: #000000;
+	height: 5px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	transform: translateY(63px);
+
+}
+.title::after{
+	content: '';
+	background: #000000;
+	height: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;      
+	display: block;
+	transform: translateY(8px);
+
+}
+#about-me{
+	background: #f8f9fa;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+.about-title{
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 8px;
+}
+
+#our-team {
+	padding-top:70px;
+	padding-bottom:70px;
+	background:#f4f4f4;
+}
+
+#our-team h4 {
+	color:#0BA9F9;
+}
+
+#our-team .text-center {
+	padding-top:20px;
+	margin-bottom:30px;
+	padding-bottom:10px;
+}
+
+#our-team img {
+	border-radius:8px;
+}
+footer{
+	background: linear-gradient( to right,#000000,#000000);
+}
+.content{
+	color: #fff;
+	font-weight: 300;
+}
+.validation {
+    color: red;
+    display:none;
+    margin: 0 0 20px;
+    font-weight:400;
+    font-size:13px;
+}
+.btn btn-success{
+	border-radius: 5px;
+}
+#footer{
+	background-image: linear-gradient(to right,#000000,#000000);
+	color: #fff;
+}
+.footer-box{
+	padding: 20px;
+}
+.footer-box .fa{
+	margin-right: 8px;
+	font-size: 20px;
+	height: 20px;
+	width:  20px;
+	text-align: center;
+	padding-top: 7px;
+	border-radius: 2px;
+
+}
+.footer-box .btn-primary{
+	box-shadow: none !important;
+	border : none;
+	border-radius: 0;
+	margin-top: 30px;
+	background-image: linear-gradient(to right,#a517ba,#5f1782,)
+}
+hr{
+	background-color: #fff;
+	text-align: center;
+}
+.copy{
+	margin-bottom: 0;
+	padding-bottom: 25px;
+	text-align: center;
+}
+h5{
+	color: black;
+	font: sans-serif;
+	font-weight: 500;
+	font-size: 20px !important;
+}
+#about-me{
+	background: #f8f9fa;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+.about-title{
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 8px;
+}
+img {
+	border-radius: 10px;
+}

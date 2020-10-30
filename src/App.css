@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --bg : purple;
+  --fs : 20px;
+  --clr : #ffff;
+  --txt : center;
+  
+}
+
+body{
+  background-color: var(--bg);
+  font-size: var(--fs);
+  color: var(--clr);
+  font-family:'Times New Roman', Times, serif;
+}
+
+.app-title{
+  text-align: var(--txt);
+}
